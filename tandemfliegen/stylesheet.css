@@ -1,0 +1,179 @@
+/******************BASICS***************/
+html {
+    scroll-behavior: smooth;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-height: 100% !important;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*MENU*/
+@media (min-width: 70em) {
+    .flex-center {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+    }
+}
+
+
+
+
+
+
+
+
+/*NAV*/
+nav {
+    background-color: #7aa61d;
+    font-size: 1.5em;
+}
+
+.nav-item {
+    color: white !important;
+    width: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+
+.btn {
+    background-color: rgb(226, 19, 19) !important;
+    border: none;
+}
+
+.dropdown {
+    border: none;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+
+.logo {
+    max-width: 200px;
+    width: 50%;
+    height: auto !important;
+}
+
+.icon {
+    max-width: 70px;
+    width: 50%;
+    height: auto !important;
+}
+
+
+
+/******************USP****************/
+section {
+    color: white !important;
+}
+
+
+.background {
+    background-color: #7aa61d;
+}
+
+.padding {
+    max-width: 105%;
+}
+
+/* For animation transition */
+.reveal {
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+
+/*******************SLIDER FLUGANGEBOT***************/
+
+#carouselExampleControls img {
+    max-width: 400px;
+}
+
+#offer1 {
+    background-image: url(image00003.jpeg);
+    background-position: center center;
+}
+
+/*******************MITARBEITER*********************/
+
+
+
+
+
+/******************WHATSAPP-BUTTON**************/
+.float{
+	position:fixed;
+	width:100px;
+	height:100px;
+	bottom:10px;
+	left:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+#whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+.float:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/*FOOTER*/
+
+footer {
+    color: white !important;
+}
+.footer {
+    background-color: #7aa61d;
+}
+
+img.footer {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-color {
+    background-color: #7aa61d;
+}
+
+.p-4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
